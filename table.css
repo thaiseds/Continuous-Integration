@@ -1,0 +1,41 @@
+
+main{
+    width: 600px; 
+    float: right;   
+    margin-top: 40px; 
+    margin-left: 400px;
+    display: block;
+    padding-left: 5px;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+}
+
+main h2{
+    margin-left: 80px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    color: #070669;
+    display: inline-block;
+}
+
+.extra{
+    float: right;   
+    display: block;
+    position: absolute;
+    margin-left: 5px;
+    width: 700px;
+}
+
+.title{
+    background-color:  #420493;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+table{
+border: #420493 1px solid;
+
+}

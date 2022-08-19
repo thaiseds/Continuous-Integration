@@ -1,0 +1,91 @@
+.asideRight{
+    width: 300px; 
+    float: right; 
+    padding-left: 5px; 
+    color: #070669;
+    margin-top: 10px;
+    
+}
+
+.asideRight h3{
+    color: #070669; 
+    text-align: center; 
+    font-family: sans-serif; 
+    font-size: 24px; 
+    background-color: #bed0f8; 
+    padding: 10px 0;
+}
+.asideRight ul{
+    list-style: none; 
+    padding-left: 0;
+    text-align: center;
+}
+
+.asideRight li{
+    line-height: 30px; 
+    font-weight: bold; 
+}
+
+.asideRight a{
+    text-decoration-line: none;
+    color: #070669;
+    clear: both;
+}
+
+main.gallery{
+    width: 600px;
+    float: right;   
+    margin-top: 10px; 
+    margin-left: 300px;
+    display: block;
+    padding-left: 40px;
+    position: absolute;
+}
+
+.gallery h2 {
+	text-align: center;
+	color:  #070669;
+	font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-bottom: 20px;
+}
+
+.gallery figure {
+    margin: 0; 
+    position: relative; 
+	display: block;  
+}
+
+.figphoto  {
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 0;
+	text-align: center;
+	background-color: #070669;
+	width: 300px;
+    height: 40px;
+    align-content: center;
+    padding-top: 5%;
+}
+
+.clip1{
+    clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%); 
+}
+.clip2 {
+	clip-path: polygon(8.89% 0.37%, 100% 0%, 87.04% 43.58%, 94.72% 100.01%, -0.28% 97.76%, 10.69% 44.96%);
+}
+.clip3 {
+	clip-path: polygon(16.95% 0.75%, 86.67% 4.63%, 98.55% 48.52%, 92.50% 96.67%, 9.16% 99.79%, 0.46% 46.47%);
+}
+.clip4 {
+	clip-path: polygon(1.11% 6.3%, 100% 0%, 99.66% 45.74%, 92.5% 97.97%, 1.94% 100.35%);
+}
+
+

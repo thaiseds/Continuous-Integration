@@ -1,0 +1,51 @@
+main h2{
+    align-content: center;
+    text-align: center;
+    color: #070669;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+main{
+    width: 600px; 
+    float: right;   
+    margin-top: 10px; 
+    margin-left: 300px;
+    display: block;
+    padding-left: 40px;
+    position: absolute;
+}
+
+.asideFeed{
+    float: right;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+
+.field{
+    margin: 15px 5px;
+    width: 425px;
+    height:25px;
+  }
+  
+  #message{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 50fr;
+  grid-template-rows: 07fr;
+  margin-bottom: 20px;
+  width: 550px;
+  height: 200px;
+  }
+
+  
+.button{
+    border: 2px dashed darkcyan;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15 px;
+    width: 100px;
+    height: 40px;
+  
+  }
